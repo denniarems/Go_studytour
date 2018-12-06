@@ -13,6 +13,7 @@ func main() {
 	var count = 3
 	rand.Seed(time.Now().Unix())
 	secretNumber = rand.Intn(10)
+	fmt.Println("Number Gussing Game")
 	for !quit {
 		fmt.Println(count, " Life Left")
 		fmt.Printf("Enter the number ")
